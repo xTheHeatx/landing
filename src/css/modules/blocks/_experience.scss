@@ -1,0 +1,54 @@
+.exp {
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: url("./../img/expirience/ExpirienceBg.png");
+       background-size: cover;
+       background-position-y: 55px;
+       background-repeat: no-repeat;
+        
+    }
+
+    &__contact-block {
+        display: flex;
+        flex-direction: column;
+        
+        margin: 211px 95px 55px 165px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 4.2rem;
+        line-height: 6.2rem;
+
+        letter-spacing: 0.8px;
+
+        color: $text-color2;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+
+        letter-spacing: 0.8px;
+
+        color: $text-color2;
+        text-align: left;
+
+        margin-bottom: 30px;
+    }
+
+    &__contact-button {
+        background: $Button-color2;
+        color: $text-color1;
+    }
+
+    &__img {
+        margin-right: 78px;
+    }
+}

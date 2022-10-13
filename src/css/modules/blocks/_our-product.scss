@@ -1,0 +1,84 @@
+.banner {
+    
+    padding: 75px 165px 75px 165px;
+
+
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        background: #58BEBF;
+        background-size: cover;
+       
+    }
+
+    &__dashboard{
+        object-fit: cover;
+        margin: 59px 0px 0 0;
+        border-top: 25px;
+        border-right: 25px;
+        border-style: solid;
+        border-color: $border-color1;
+        border-radius: 0 20px 0px 0;
+
+    }
+    // &__oval{
+    //     position: relative;
+    //     margin-left: -200px;
+    //     margin-top: 363;
+    //     object-fit: none;
+    //     // margin: 363px 0px 0 0;
+
+    // }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        margin: 92px 95px 92px 96px;
+        
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 4.2rem;
+        line-height: 6.2rem;
+
+        letter-spacing: 0.8px;
+
+        color: $text-color2;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    &__description {
+
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+
+        letter-spacing: 0.8px;
+
+        color: $text-color2;
+
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    &__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__contact-button {
+        margin-right: 20px;
+    }
+
+    &__watch-button {
+        background: $Button-color2;
+        color: $text-color1;
+    }
+    &__play{
+        background: url("./../img/play.png");
+    }
+}

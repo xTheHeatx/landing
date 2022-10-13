@@ -1,0 +1,48 @@
+.footer {
+
+    &__contaner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__about-block {
+        margin: 86px 224px 116px 159px;
+    }
+
+    &__logo {
+    }
+
+    &__logo-title {
+    }
+
+    &__sm-block {
+    }
+
+    &__privacy-block {
+        display: flex;
+        flex-direction: column;
+        margin: 96px 85px 82px 0px;
+    }
+
+    
+
+    &__legal-block {
+        display: flex;
+        flex-direction: column;
+        margin: 96px 85px 82px 85px;
+    }
+
+    &__contact-block {
+        display: flex;
+        flex-direction: column;
+        margin: 96px 164px 82px 85px;
+    }
+
+    &__title {
+        margin-bottom: 18px;
+    }
+
+    &__link {
+        margin-bottom: 13px;
+    }
+}

@@ -1,0 +1,111 @@
+$text-color1:#323232;
+$text-color2:#FFFFFF;
+$text-color3:#F78434;
+$text-color4:#58BEBF;
+$text-color5:#BBBBBB;
+
+$hover-color1:#F78434;
+
+$Button-color1:#F78434;
+$Button-color2:#FFFFFF;
+
+$Input-color1:#FFFFFF;
+
+$border-color1:#FFFFFF;
+
+
+
+
+
+// убирает все отступы всех блоков
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    line-height: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// h1, h2, h3, h4, h5, h6, p{
+    
+// }
+
+input {
+    border: none;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+
+    color: $text-color1;
+}
+
+.def-button{
+    padding: 18px 37px; 
+    max-width: 172px;
+
+ 
+    max-height: 58px;
+
+    border: none;
+    background: $Button-color1;
+    cursor: pointer;
+    border-radius: 29px;
+
+    color: $text-color2;
+
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+
+    &:hover{
+        background-color: RoyalBlue;
+        background-color: 0.3s ease-in;
+
+
+
+    }
+    &:transition{
+        box-shadow: 0.3s ease-in;
+    }
+}
+
+
+
+input:focus, button:focus{
+    outline: none;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+
+    &:hover{
+        color: $hover-color1;
+        
+        // text-decoration: underline;
+        font-weight: 700;
+
+    }
+
+}
+

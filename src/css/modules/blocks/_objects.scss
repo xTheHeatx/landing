@@ -1,0 +1,57 @@
+.objects {
+
+    &__container {
+        display: flex ;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 75px;
+    }
+
+    &__img-block {
+        display: flex ;
+        flex-direction: row;
+    }
+
+    &__img1 {
+        margin-right: 33px;
+        border-radius: 0 20px 20px 0;
+    }
+    &__img2 {
+        border-radius: 20px 20px 0 20px;
+    }
+
+    &__aboutus-block {
+        display: flex ;
+        flex-direction: column;
+        text-align: left;
+        
+        margin: 0px 110px 0 150px;
+        max-width: 600px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+        text-align: left;
+        font-weight: 700;
+        font-size: 4.2rem;
+        line-height: 6.2rem;
+        letter-spacing: 0.8px;
+        color: $text-color1;
+    }
+
+    &__description {
+
+        margin-bottom: 20px;
+
+        ont-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.7rem;
+
+        letter-spacing: 1.15px;
+        color: $text-color1;
+    }
+
+    &__subscribe-button {
+    }
+}
+

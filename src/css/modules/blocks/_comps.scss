@@ -1,0 +1,18 @@
+.comps {
+    padding: 100px 165px 100px 165px;
+
+    &__comps-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    &__company {
+
+        &:not(:last-child){
+            margin-right: 115px;
+        }
+    }
+    
+}

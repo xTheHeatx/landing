@@ -1,0 +1,23 @@
+//base
+@import "./modules/global";
+@import "./modules/base-modules";
+
+//blocks
+@import "./modules/blocks/choose-us";
+@import "./modules/blocks/comps";
+@import "./modules/blocks/experience";
+@import "./modules/blocks/feedback";
+@import "./modules/blocks/footer";
+@import "./modules/blocks/header";
+@import "./modules/blocks/header-navigation";
+@import "./modules/blocks/objects";
+@import "./modules/blocks/our-product";
+@import "./modules/blocks/provide";
+@import "./modules/blocks/serve";
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+// @font-face {
+//     font-family:'Igra Sans';
+//     src: url(/src/fonts/IgraSans.otf);
+// }
